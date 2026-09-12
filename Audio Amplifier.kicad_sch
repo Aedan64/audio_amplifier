@@ -2642,16 +2642,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 87.63) (xy 68.58 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d34f05a-d36f-4c03-9ba7-3d55f45e4422")
-	)
-	(wire
-		(pts
 			(xy 45.72 73.66) (xy 45.72 85.09)
 		)
 		(stroke
@@ -2749,16 +2739,6 @@
 			(type default)
 		)
 		(uuid "194f0e9d-4617-4746-9206-1b6eaa95b584")
-	)
-	(wire
-		(pts
-			(xy 58.42 73.66) (xy 66.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b7661d-f527-40be-a33c-80b18fa12c90")
 	)
 	(wire
 		(pts
@@ -2992,6 +2972,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 73.66) (xy 58.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7f1b4a-d181-4671-90a1-83715e2db505")
+	)
+	(wire
+		(pts
 			(xy 167.64 33.02) (xy 167.64 52.07)
 		)
 		(stroke
@@ -3079,16 +3069,6 @@
 			(type default)
 		)
 		(uuid "89adc233-d974-41b0-a3cd-a49972fbb8c0")
-	)
-	(wire
-		(pts
-			(xy 66.04 73.66) (xy 66.04 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba65158-d038-49ff-9a77-32fd48515d72")
 	)
 	(wire
 		(pts
@@ -3569,16 +3549,6 @@
 			(justify left bottom)
 		)
 		(uuid "906e90ab-dce5-4180-80df-f20f92e7cd67")
-	)
-	(label "S3"
-		(at 68.58 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c3e9ef1-b12e-4bb0-856c-de1776200520")
 	)
 	(label "InL"
 		(at 49.53 97.79 0)
@@ -4175,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "1000pF"
 			(at 143.51 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,7 +4850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e8788fe-6363-4cbc-b980-13c06ee50cf9")
-		(property "Reference" "C_Polarized"
+		(property "Reference" "C18"
 			(at 167.64 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4944,7 +4914,7 @@
 		(instances
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "C_Polarized")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e0fb8d5-342d-4f82-9514-d078938ebe79")
-		(property "Reference" "C_Polarized"
+		(property "Reference" "C19"
 			(at 165.1 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5552,7 @@
 		(instances
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "C_Polarized")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -5824,6 +5794,84 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9170d6c3-b9be-4da9-a0b7-00697a80ba18")
+		(property "Reference" "#PWR015"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ac754cb-8416-4de5-ae57-d605202467db")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6294,83 +6342,6 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e860c8b-0e84-41fa-a881-d9540b1aceb3")
-		(property "Reference" "#PWR015"
-			(at 58.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.658 89.408 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72ea3216-623a-4860-8bf5-0c0bb45ea3f0")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7354,7 +7325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000nF"
+		(property "Value" "1000pF"
 			(at 190.5 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
