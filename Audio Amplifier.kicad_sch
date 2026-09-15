@@ -2223,147 +2223,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Speaker"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LS"
-				(at 1.27 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker"
-				(at 1.27 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -0.254 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Speaker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "speaker sound"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Speaker_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.016 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.27) (xy 3.556 3.81) (xy 3.556 -6.35) (xy 1.016 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -2979,6 +2838,10 @@
 		(color 0 0 0 0)
 		(uuid "f03240be-6123-43fe-aabe-10ee3b227a5b")
 	)
+	(no_connect
+		(at 100.33 80.01)
+		(uuid "cfabbcea-ceb5-42c1-b93c-ebb5dceb6d66")
+	)
 	(wire
 		(pts
 			(xy 52.07 48.26) (xy 45.72 48.26)
@@ -3491,16 +3354,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 54.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27d5fee-238e-40b8-a22d-cb06618dbb57")
-	)
-	(wire
-		(pts
 			(xy 190.5 71.12) (xy 190.5 76.2)
 		)
 		(stroke
@@ -3869,16 +3722,6 @@
 		)
 		(uuid "fd0a8032-731f-4b4e-9927-a215f76ce461")
 	)
-	(label "S3"
-		(at 100.33 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28496639-5a89-40c3-91e6-bce0e499c8ad")
-	)
 	(label "AVCC"
 		(at 81.28 59.69 0)
 		(effects
@@ -3898,16 +3741,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ac23346-e511-4ff5-9695-432d944f20c4")
-	)
-	(label "S3"
-		(at 45.72 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e65bcb3-4045-432b-83d7-6d07f146bb05")
 	)
 	(label "GVDD"
 		(at 62.23 48.26 0)
@@ -3949,16 +3782,6 @@
 		)
 		(uuid "ab97f0c8-7dd7-4099-8a7e-09c85c51dd56")
 	)
-	(label "S3"
-		(at 57.15 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6d31a2e-1efc-4511-b601-55e532e7e874")
-	)
 	(label "PLIM"
 		(at 52.07 48.26 0)
 		(effects
@@ -3998,16 +3821,6 @@
 			(justify left bottom)
 		)
 		(uuid "f73a0842-8e3e-45e0-8224-1d8796e67e50")
-	)
-	(label "S3"
-		(at 66.04 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9d3220b-2a46-4ba1-b43b-b1efd63de891")
 	)
 	(label "InL"
 		(at 100.33 54.61 0)
@@ -5143,6 +4956,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fd58c4a-b392-441d-82c1-69a2d611f610")
+		(property "Reference" "#PWR022"
+			(at 66.04 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.342 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a6e4a29-9e3b-412f-ad4e-b1c779cd2322")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 166.37 74.93 90)
 		(unit 1)
 		(body_style 1)
@@ -5293,88 +5183,6 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 222.25 78.74 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "532bbc23-61d1-4219-9238-7ebd0e3e0b29")
-		(property "Reference" "LS1"
-			(at 227.33 78.7401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4ohm"
-			(at 227.33 76.2001 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 221.996 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 222.25 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3d4faf48-8657-4fb1-9aae-3f58ac6a4cfd")
-		)
-		(pin "1"
-			(uuid "67c4e307-6641-4b30-aca1-7f69b7c8bf8e")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "LS1")
 					(unit 1)
 				)
 			)
@@ -5537,6 +5345,88 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 222.25 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66bead74-e333-4bfd-a750-c0dd601bb4a6")
+		(property "Reference" "J3"
+			(at 223.52 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RIGHT_4ohm-SPEAKER"
+			(at 223.52 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e4ca7ae-deb8-4954-8637-df5d8054f682")
+		)
+		(pin "1"
+			(uuid "18633282-80dc-4b91-a7d2-0ca78dbdd552")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5942,6 +5832,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 226.06 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "750cccf4-c705-4995-9343-802f7f98627e")
+		(property "Reference" "J4"
+			(at 227.33 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LEFT_4ohm_SPEAKER"
+			(at 227.33 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 226.06 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8df025b9-80e5-4054-99de-8313273e444e")
+		)
+		(pin "1"
+			(uuid "88e2a8dd-a7a7-4485-bc17-ed90ff3331ef")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 40.64 0)
 		(unit 1)
@@ -6203,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "12V"
 			(at 228.6 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6922,7 +6894,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer_Dual"
+		(property "Value" "A10k"
 			(at 55.88 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,6 +7184,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 54.61 60.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae6447e2-0a12-4f9d-9eb1-d0f519d64d92")
+		(property "Reference" "#PWR023"
+			(at 60.96 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a066f35e-e859-4c7c-a635-29fac112a274")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 157.48 96.52 180)
 		(unit 1)
 		(body_style 1)
@@ -7470,7 +7521,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "12V"
 			(at 166.37 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,7 +7835,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "12V"
 			(at 167.64 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,88 +8130,6 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 226.06 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d12d7dcd-07cb-4a11-9381-797485416366")
-		(property "Reference" "LS2"
-			(at 231.14 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4ohm"
-			(at 231.14 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 225.806 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Speaker"
-			(at 226.06 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f5b456fc-83fb-432b-a78f-5dfd8f3004fd")
-		)
-		(pin "1"
-			(uuid "ea39d95d-49e7-4ae5-b25f-67c0bd560c5c")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "LS2")
 					(unit 1)
 				)
 			)
@@ -8672,7 +8641,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "12V"
 			(at 54.61 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8961,6 +8930,84 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb21a57-049c-4568-9b29-e6e4ee39ef78")
+		(property "Reference" "#PWR021"
+			(at 45.72 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e38cc0c-e446-48cc-a45c-c03d48b29a68")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
