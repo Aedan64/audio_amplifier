@@ -1206,6 +1206,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2421,6 +2599,12 @@
 		(uuid "03385b62-b733-4be6-87a7-4b85a5becbde")
 	)
 	(junction
+		(at 182.88 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c183641-90db-4957-85a6-a5ba5ac0dfac")
+	)
+	(junction
 		(at 166.37 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2437,12 +2621,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f25b267-d748-42e0-bde1-735cb7452ad3")
-	)
-	(junction
-		(at 182.88 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30c32632-b110-4b1e-acb4-d66a3ef34877")
 	)
 	(junction
 		(at 187.96 58.42)
@@ -2487,10 +2665,10 @@
 		(uuid "5d0d7e59-2165-402e-b698-7f97d228ba82")
 	)
 	(junction
-		(at 182.88 78.74)
+		(at 200.66 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "632c82ae-95d8-4a85-bcc1-fcd96ecaaeaf")
+		(uuid "6215fbcc-d8ce-41ed-9316-f751d468d41c")
 	)
 	(junction
 		(at 201.93 83.82)
@@ -2499,22 +2677,10 @@
 		(uuid "65666d48-faaf-4c25-a217-7f843aa40338")
 	)
 	(junction
-		(at 200.66 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68c186ff-26fb-4a47-af2b-8bc2300b9e23")
-	)
-	(junction
 		(at 170.18 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e0b665-dea7-4a74-a1f8-0d168f6d9f9d")
-	)
-	(junction
-		(at 200.66 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "719a1bc6-59ae-467e-bc8a-dc5cf123758d")
 	)
 	(junction
 		(at 201.93 76.2)
@@ -2551,6 +2717,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c7d219-12e8-48fa-afc7-78781733fdbb")
+	)
+	(junction
+		(at 200.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "984b4e8e-7521-4498-b8a9-109f3d755637")
 	)
 	(junction
 		(at 166.37 85.09)
@@ -2611,6 +2783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee77bd0f-75e6-4a94-9684-56f5e2b6e338")
+	)
+	(junction
+		(at 182.88 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef4e7bff-c141-4925-8928-b3e76fbb3979")
 	)
 	(junction
 		(at 157.48 96.52)
@@ -2870,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 182.88 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aec5119-0ce6-4a2b-b964-cbcbd0fa4270")
-	)
-	(wire
-		(pts
 			(xy 161.29 77.47) (xy 166.37 77.47)
 		)
 		(stroke
@@ -2937,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "50fc49b1-d8a6-452a-a2e1-d12965cff228")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ab4ac1-a04e-4a35-ac69-c03f524b52ec")
 	)
 	(wire
 		(pts
@@ -3030,6 +3208,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 71.12) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b2e443-cbb7-4e0e-b57a-d939778c1981")
+	)
+	(wire
+		(pts
 			(xy 165.1 67.31) (xy 166.37 67.31)
 		)
 		(stroke
@@ -3077,16 +3265,6 @@
 			(type default)
 		)
 		(uuid "90a389ca-064e-4168-97db-cd136a1b9361")
-	)
-	(wire
-		(pts
-			(xy 182.88 78.74) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946415b3-ae08-4871-a42a-ec3e14d6ae0a")
 	)
 	(wire
 		(pts
@@ -3500,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 182.88 72.39)
+			(xy 182.88 69.85) (xy 182.88 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3904,8 +4082,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 196.85 73.66 90)
+		(lib_id "Device:L")
+		(at 196.85 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3913,9 +4091,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "07971f97-a99c-4451-b9ac-f47fb2191c58")
-		(property "Reference" "R8"
-			(at 196.85 71.374 90)
+		(fields_autoplaced yes)
+		(uuid "12a27399-9dc2-47b9-833e-dd41f5e9333e")
+		(property "Reference" "L1"
+			(at 196.85 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3924,8 +4103,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 194.564 71.374 90)
+		(property "Value" "15uH"
+			(at 196.85 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3935,7 +4114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 75.438 90)
+			(at 196.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,7 +4125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 73.66 0)
+			(at 196.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,8 +4135,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 196.85 73.66 0)
+		(property "Description" "Inductor"
+			(at 196.85 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3968,15 +4147,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "47f80903-f31c-4599-b6b3-29efacdac3d2")
+			(uuid "675e4ec7-a601-4354-9274-73e13ee9472a")
 		)
 		(pin "1"
-			(uuid "74b468fa-23d1-4d34-a469-cd76bad75872")
+			(uuid "501ce199-8d07-4d14-b901-fcf8a885693a")
 		)
 		(instances
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "R8")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF"
 			(at 205.74 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,85 +4397,6 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28b7aa0f-2c41-4ade-a4e8-e6ad6522d841")
-		(property "Reference" "R10"
-			(at 187.198 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 184.658 76.708 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 80.518 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e6ccf182-c8af-4eb6-b52c-9c6fc7200877")
-		)
-		(pin "1"
-			(uuid "6abde203-9927-4bb6-b2ac-45d897ae74a2")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF"
 			(at 205.232 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,86 +4636,6 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ed2829f-f272-4d3b-b439-a6e4d5dff3cc")
-		(property "Reference" "R7"
-			(at 196.85 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 196.85 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 60.198 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 196.85 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af6fcf75-e2b9-45b8-ab7a-42d026181e56")
-		)
-		(pin "2"
-			(uuid "146812bf-986b-48d0-84c6-04644d7c59b6")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5262,85 +5282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 186.69 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "675a6711-458b-4352-9700-ca432068c07a")
-		(property "Reference" "R9"
-			(at 186.69 64.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 184.658 69.088 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 72.898 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af9f1c64-b676-4bbc-aef2-ee37db030b72")
-		)
-		(pin "2"
-			(uuid "a6abb325-4d4f-4107-bb9b-d02930b2bc1b")
-		)
-		(instances
-			(project "Audio Amplifier"
-				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 57.15 90)
 		(unit 1)
@@ -5576,6 +5517,86 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 186.69 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d1341b5-1b49-4500-82d3-07891f4a8d2e")
+		(property "Reference" "L3"
+			(at 186.69 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH"
+			(at 186.69 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 186.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98252026-1ce1-455e-bc96-6df3c551fa5e")
+		)
+		(pin "1"
+			(uuid "5b9b25dc-1dfa-4bfe-8f0b-2fa9ccbdac13")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -6292,6 +6313,86 @@
 			(project "Audio Amplifier"
 				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 196.85 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96406e03-2b54-4bce-9c3a-8d8f1eabb7b5")
+		(property "Reference" "L4"
+			(at 196.85 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH"
+			(at 196.85 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 196.85 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f651fc0-e5ec-4604-8384-e3a21dbd166a")
+		)
+		(pin "1"
+			(uuid "a38a0e59-5cbc-4798-8048-f90ba82835c8")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF"
 			(at 204.47 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7806,6 +7907,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 186.69 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1c339ba-b99f-4b0f-8a4a-c102cd691f12")
+		(property "Reference" "L2"
+			(at 189.738 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH"
+			(at 189.23 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 186.69 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "623a6e13-c2b5-42c9-bb54-6f6714c484de")
+		)
+		(pin "1"
+			(uuid "b5045087-a624-40ab-a508-d753665c4024")
+		)
+		(instances
+			(project "Audio Amplifier"
+				(path "/44284b9d-b892-46b9-bfbe-71e6e2e22151"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 184.15 67.31 90)
 		(unit 1)
@@ -7815,10 +7995,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2627d03-bb2a-4d67-81ab-0bf67383f97c")
 		(property "Reference" "C4"
-			(at 184.15 59.69 90)
+			(at 184.404 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7828,7 +8007,7 @@
 			)
 		)
 		(property "Value" "0.22uF"
-			(at 184.15 62.23 90)
+			(at 184.15 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7908,7 +8087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "2.2uF"
 			(at 204.47 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
