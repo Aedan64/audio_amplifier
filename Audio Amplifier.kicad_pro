@@ -661,7 +661,7 @@
         "uuid": "44284b9d-b892-46b9-bfbe-71e6e2e22151"
       }
     ],
-    "used_designators": "F1,Q1,RV1,U1-2,FB1-2,C1-17,C20-21,SW1,R1-12,J1-4,LS1-2,L1-4,100uF1-2,D1,#PWR1-24,2ohm20W1-2",
+    "used_designators": "F1,Q1,RV1,FB1-2,C1-17,C20-21,SW1,U1-2,D1,#PWR1-24,2ohm20W1-2,R1-12,J1-4,100uF1-2,LS1-2,L1-4",
     "variants": []
   },
   "sheets": [
